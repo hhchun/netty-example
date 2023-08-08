@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.qqs.netty</groupId>
+    <artifactId>netty-example</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>netty-bio</module>
+        <module>netty-nio</module>
+        <module>netty-nio/netty-nio-quick-start</module>
+        <module>netty-nio/netty-nio-group-chat</module>
+        <module>netty-nio/netty-mores-io-read-write</module>
+        <module>netty-nio/netty-nio-zero-copy</module>
+        <module>netty-tcp-simple</module>
+        <module>netty-http-simple</module>
+        <module>netty-byte-buf</module>
+        <module>netty-group-chat-simple</module>
+        <module>netty-heartbeat-simple</module>
+        <module>netty-websocket-simple</module>
+        <module>netty-protobuf</module>
+        <module>netty-protobuf/netty-protobuf-simple</module>
+        <module>netty-protobuf/netty-protobuf-multi</module>
+        <module>netty-codec</module>
+        <module>netty-codec-handler-explain</module>
+        <module>netty-sticky-unpack-package</module>
+        <module>netty-sticky-unpack-package-solve</module>
+        <module>netty-example-echo</module>
+    </modules>
+
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>io.netty</groupId>
+                <artifactId>netty-all</artifactId>
+                <version>4.1.86.Final</version>
+            </dependency>
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>1.18.20</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+</project>

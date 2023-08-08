@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="36fd6742-5421-4dbe-9fc8-913e14d694c1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-bio/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-bio/src/main/java/com/qqs/bio/BIOServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-byte-buf/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-byte-buf/src/main/java/com/qqs/netty/NettyByteBufExampleOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-byte-buf/src/main/java/com/qqs/netty/NettyByteBufExampleTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-codec-handler-explain/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-codec-handler-explain/src/main/java/com/qqs/netty/client/NettyCodecHandlerExplainClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-codec-handler-explain/src/main/java/com/qqs/netty/client/NettyCodecHandlerExplainClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-codec-handler-explain/src/main/java/com/qqs/netty/codec/ByteToLongDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-codec-handler-explain/src/main/java/com/qqs/netty/codec/ByteToLongReplayingDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-codec-handler-explain/src/main/java/com/qqs/netty/codec/LongToByteEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-codec-handler-explain/src/main/java/com/qqs/netty/server/NettyCodecHandlerExplainServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-codec-handler-explain/src/main/java/com/qqs/netty/server/NettyCodecHandlerExplainServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-codec/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-codec/src/main/java/com/qqs/netty/ByteToIntegerDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-example-echo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-example-echo/src/main/java/com/qqs/netty/EchoClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-example-echo/src/main/java/com/qqs/netty/EchoClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-example-echo/src/main/java/com/qqs/netty/EchoServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-example-echo/src/main/java/com/qqs/netty/EchoServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-example-echo/src/main/java/com/qqs/netty/ServerUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-group-chat-simple/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-group-chat-simple/src/main/java/com/qqs/netty/client/NettyGroupChatClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-group-chat-simple/src/main/java/com/qqs/netty/client/NettyGroupChatClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-group-chat-simple/src/main/java/com/qqs/netty/server/NettyGroupChatServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-group-chat-simple/src/main/java/com/qqs/netty/server/NettyGroupChatServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-heartbeat-simple/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-heartbeat-simple/src/main/java/com/qqs/netty/clien/NettyHeartbeatClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-heartbeat-simple/src/main/java/com/qqs/netty/clien/NettyHeartbeatClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-heartbeat-simple/src/main/java/com/qqs/netty/server/NettyHeartbeatServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-heartbeat-simple/src/main/java/com/qqs/netty/server/NettyHeartbeatServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-http-simple/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-http-simple/src/main/java/com/qqs/netty/server/NettyHttpServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-http-simple/src/main/java/com/qqs/netty/server/NettyHttpServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-http-simple/src/main/java/com/qqs/netty/server/NettyHttpServerInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-nio/netty-buffer-channel-note/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-nio/netty-buffer-channel-note/src/main/java/com/qqs/nio/ByteBufferPutGet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-nio/netty-buffer-channel-note/src/main/java/com/qqs/nio/MappedByteBufferExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-nio/netty-buffer-channel-note/src/main/java/com/qqs/nio/ReadOnlyBuffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-nio/netty-buffer-channel-note/src/main/java/com/qqs/nio/ScatteringAndGathering.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-nio/netty-buffer-copy/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-nio/netty-buffer-copy/src/main/java/com/qqs/nio/BufferCopyFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-nio/netty-buffer-copy/src/main/resources/1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-nio/netty-local-read/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-nio/netty-local-read/src/main/java/com/qqs/nio/LocalFileRead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-nio/netty-local-write/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-nio/netty-local-write/src/main/java/com/qqs/nio/LocalFileWrite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-nio/netty-mores-io-read-write/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-nio/netty-mores-io-read-write/src/main/java/com/qqs/nio/MoresIoReadWrite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-nio/netty-nio-group-chat/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-nio/netty-nio-group-chat/src/main/java/com/qqs/nio/client/NioGroupChatClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-nio/netty-nio-group-chat/src/main/java/com/qqs/nio/server/NioGroupChatServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-nio/netty-nio-quick-start/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-nio/netty-nio-quick-start/src/main/java/com/qqs/nio/client/NioQuickStartClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-nio/netty-nio-quick-start/src/main/java/com/qqs/nio/server/NioQuickStartServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-nio/netty-nio-zero-copy/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-nio/netty-nio-zero-copy/src/main/java/com/qqs/nio/client/NioZeroCopyTransferToClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-nio/netty-nio-zero-copy/src/main/java/com/qqs/nio/server/NioZeroCopyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-nio/netty-transferfrom-copy/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-nio/netty-transferfrom-copy/src/main/java/com/qqs/nio/TransferFromCopyFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-nio/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-protobuf/netty-protobuf-multi/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-protobuf/netty-protobuf-multi/src/main/java/com/qqs/netty/client/NettyProtobufMultiClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-protobuf/netty-protobuf-multi/src/main/java/com/qqs/netty/client/NettyProtobufMultiClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-protobuf/netty-protobuf-multi/src/main/java/com/qqs/netty/entity/Person.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-protobuf/netty-protobuf-multi/src/main/java/com/qqs/netty/entity/PersonEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-protobuf/netty-protobuf-multi/src/main/java/com/qqs/netty/server/NettyProtobufMultiServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-protobuf/netty-protobuf-multi/src/main/java/com/qqs/netty/server/NettyProtobufMultiServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-protobuf/netty-protobuf-simple/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-protobuf/netty-protobuf-simple/src/main/java/com/qqs/netty/client/NettyProtobufSimpleClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-protobuf/netty-protobuf-simple/src/main/java/com/qqs/netty/client/NettyProtobufSimpleClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-protobuf/netty-protobuf-simple/src/main/java/com/qqs/netty/entity/Student.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-protobuf/netty-protobuf-simple/src/main/java/com/qqs/netty/entity/StudentEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-protobuf/netty-protobuf-simple/src/main/java/com/qqs/netty/server/NettyProtobufSimpleServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-protobuf/netty-protobuf-simple/src/main/java/com/qqs/netty/server/NettyProtobufSimpleServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-protobuf/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-sticky-unpack-package-solve/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-sticky-unpack-package-solve/src/main/java/com/qqs/netty/client/NettyStickyUnpackPackageSolveClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-sticky-unpack-package-solve/src/main/java/com/qqs/netty/client/NettyStickyUnpackPackageSolveClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-sticky-unpack-package-solve/src/main/java/com/qqs/netty/common/ByteToMessageProtocolDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-sticky-unpack-package-solve/src/main/java/com/qqs/netty/common/MessageProtocol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-sticky-unpack-package-solve/src/main/java/com/qqs/netty/common/MessageProtocolToByteEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-sticky-unpack-package-solve/src/main/java/com/qqs/netty/server/NettyStickyUnpackPackageSolveServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-sticky-unpack-package-solve/src/main/java/com/qqs/netty/server/NettyStickyUnpackPackageSolveServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-sticky-unpack-package/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-sticky-unpack-package/src/main/java/com/qqs/netty/client/NettyStickyUnpackPackageClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-sticky-unpack-package/src/main/java/com/qqs/netty/client/NettyStickyUnpackPackageClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-sticky-unpack-package/src/main/java/com/qqs/netty/server/NettyStickyUnpackPackageServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-sticky-unpack-package/src/main/java/com/qqs/netty/server/NettyStickyUnpackPackageServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-tcp-simple/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-tcp-simple/src/main/java/com/qqs/netty/client/NettyTcpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-tcp-simple/src/main/java/com/qqs/netty/client/NettyTcpClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-tcp-simple/src/main/java/com/qqs/netty/server/NettyTcpServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-tcp-simple/src/main/java/com/qqs/netty/server/NettyTcpServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-tcp-simple/src/main/java/com/qqs/netty/server/taskqueue/NettyServerCommonTaskHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-tcp-simple/src/main/java/com/qqs/netty/server/taskqueue/NettyServerScheduleTaskHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-websocket-simple/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-websocket-simple/src/main/java/com/qqs/netty/NettyWebSocketServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-websocket-simple/src/main/java/com/qqs/netty/NettyWebSocketServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HierarchyBrowserManager">
+    <option name="SORT_ALPHABETICALLY" value="true" />
+    <option name="SCOPE" value="All" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar:///usr/local/apache-maven-3.8.8/repostitory/io/netty/netty-common/4.1.86.Final/netty-common-4.1.86.Final-sources.jar!/io/netty/util/concurrent/EventExecutorGroup.java" root0="SKIP_INSPECTION" />
+    <setting file="jar:///usr/local/apache-maven-3.8.8/repostitory/io/netty/netty-transport/4.1.86.Final/netty-transport-4.1.86.Final.jar!/io/netty/channel/EventLoopGroup.class" root0="SKIP_INSPECTION" />
+    <setting file="jar:///usr/local/apache-maven-3.8.8/repostitory/io/netty/netty-transport/4.1.86.Final/netty-transport-4.1.86.Final.jar!/io/netty/channel/MultithreadEventLoopGroup.class" root0="SKIP_INSPECTION" />
+    <setting file="jar:///usr/local/apache-maven-3.8.8/repostitory/io/netty/netty-transport/4.1.86.Final/netty-transport-4.1.86.Final.jar!/io/netty/channel/nio/NioEventLoopGroup.class" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="/usr/local/apache-maven-3.8.8/repostitory" />
+        <option name="mavenHome" value="/usr/local/apache-maven-3.8.8" />
+        <option name="userSettingsFile" value="/usr/local/apache-maven-3.8.8/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2T3QQwlcqsIfdVP6XWuFIGAaKUZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;GenProtobuf.quickGen&quot;: &quot;Java&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/qqs/learn/netty/code/netty-example/netty-sticky-unpack-package-solve/src/main/java/com/qqs/netty&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15039062&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.21996616&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/netty-sticky-unpack-package-solve/src/main/java/com/qqs/netty" />
+      <recent name="$PROJECT_DIR$/netty-codec-handler-explain/src/main/java/com/qqs/netty" />
+      <recent name="$PROJECT_DIR$/netty-protobuf/netty-protobuf-multi/src/main/java/com/qqs/netty" />
+      <recent name="$PROJECT_DIR$/netty-protobuf/netty-protobuf-multi/src/main/java/com/qqs/netty/entity" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/netty-protobuf/netty-protobuf-simple/src/main/java/com/qqs/netty/entity" />
+      <recent name="$PROJECT_DIR$/netty-nio/netty-buffer-copy/src/main/resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.qqs.netty.clien" />
+      <recent name="com.qqs.netty.server.taskqueue" />
+      <recent name="com.qqs.nio" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.EchoServer">
+    <configuration name="EchoClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qqs.netty.EchoClient" />
+      <module name="netty-example-echo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qqs.netty.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EchoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qqs.netty.EchoServer" />
+      <module name="netty-example-echo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qqs.netty.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NettyStickyUnpackPackageClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qqs.netty.client.NettyStickyUnpackPackageClient" />
+      <module name="netty-sticky-unpack-package" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qqs.netty.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NettyStickyUnpackPackageSolveClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qqs.netty.client.NettyStickyUnpackPackageSolveClient" />
+      <module name="netty-sticky-unpack-package-solve" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qqs.netty.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NettyStickyUnpackPackageSolveServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qqs.netty.server.NettyStickyUnpackPackageSolveServer" />
+      <module name="netty-sticky-unpack-package-solve" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qqs.netty.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.EchoServer" />
+        <item itemvalue="Application.EchoClient" />
+        <item itemvalue="Application.NettyStickyUnpackPackageSolveClient" />
+        <item itemvalue="Application.NettyStickyUnpackPackageSolveServer" />
+        <item itemvalue="Application.NettyStickyUnpackPackageClient" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="36fd6742-5421-4dbe-9fc8-913e14d694c1" name="Changes" comment="" />
+      <created>1690269272545</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1690269272545</updated>
+      <workItem from="1690269275149" duration="3839000" />
+      <workItem from="1690428898955" duration="264000" />
+      <workItem from="1690429269600" duration="996000" />
+      <workItem from="1690430294559" duration="30000" />
+      <workItem from="1690430330603" duration="102000" />
+      <workItem from="1690430436147" duration="11000" />
+      <workItem from="1690430457451" duration="28000" />
+      <workItem from="1690430500266" duration="13652000" />
+      <workItem from="1690475211289" duration="6145000" />
+      <workItem from="1690549507134" duration="10068000" />
+      <workItem from="1690616064200" duration="4802000" />
+      <workItem from="1690722389168" duration="10298000" />
+      <workItem from="1690793734407" duration="12366000" />
+      <workItem from="1691135992852" duration="9930000" />
+      <workItem from="1691169726405" duration="4017000" />
+      <workItem from="1691225253646" duration="21564000" />
+      <workItem from="1691309759824" duration="24395000" />
+      <workItem from="1691399821327" duration="10457000" />
+      <workItem from="1691486569698" duration="8092000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///usr/local/apache-maven-3.8.8/repostitory/io/netty/netty-transport/4.1.86.Final/netty-transport-4.1.86.Final-sources.jar!/io/netty/channel/AbstractChannel.java</url>
+          <line>561</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///usr/local/apache-maven-3.8.8/repostitory/io/netty/netty-transport/4.1.86.Final/netty-transport-4.1.86.Final-sources.jar!/io/netty/channel/AbstractChannel.java</url>
+          <line>577</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///usr/local/apache-maven-3.8.8/repostitory/io/netty/netty-transport/4.1.86.Final/netty-transport-4.1.86.Final-sources.jar!/io/netty/bootstrap/AbstractBootstrap.java</url>
+          <line>355</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///usr/local/apache-maven-3.8.8/repostitory/io/netty/netty-transport/4.1.86.Final/netty-transport-4.1.86.Final-sources.jar!/io/netty/channel/AbstractChannel.java</url>
+          <line>270</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="io.netty.channel.DefaultChannelHandlerContext" memberName="next" />
+        <PinnedItemInfo parentTag="java.util.LinkedHashMap$Entry" memberName="key" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>
